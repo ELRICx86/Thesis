@@ -112,7 +112,7 @@ function App() {
     <AppState.Provider value={{login,setLogin,address,setAddress,balance,setBalance,
       paypalContractAddress, setPaypalContractAddress,currency,setCurrency,recipientAddress, setRecipientAddress, amount, setAmount
       ,explorer, setExplorer,transferAmount,txLoading, setTxLoading,showRecentTx, setShowRecentTx,
-      saveTxLoad, setSaveTxLoad,recentTx, setRecentTx,saveTx}}>
+      saveTxLoad, setSaveTxLoad,recentTx, setRecentTx,saveTx,paypalContract}}>
     <div className="mid-w-full h-screen">
      { login?
      <div className="min-w-full min-h-full">
